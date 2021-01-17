@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">Backup Phone</string>
+    <string name="app_name">备用机助手</string>
+
+    <string name="preferences_common">通用</string>
+    <string name="preferences_global_switch">全局开关</string>
+    <string name="preferences_global_sender">发送通道</string>
+
+    <string name="preferences_serverchan">Server 酱</string>
+    <string name="serverchan_sckey">SCKEY</string>
+
+    <string name="preferences_wechatwork">企业微信</string>
+    <string name="wechatwork_corp_id">Corp ID</string>
+    <string name="wechatwork_secret">Secret</string>
+    <string name="wechatwork_agent_id">Agent ID</string>
 </resources>

@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="@string/preferences_common">
+        <SwitchPreference
+            app:key="global_switch"
+            app:title="@string/preferences_global_switch"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:key="global_sender"
+            app:title="@string/preferences_global_sender"
+            app:entries="@array/preferences_sender"
+            app:entryValues="@array/preferences_sender_value" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/preferences_serverchan">
+        <EditTextPreference
+            app:key="serverchan_sckey"
+            app:title="@string/serverchan_sckey"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/preferences_wechatwork">
+        <EditTextPreference
+            app:key="wechatwork_corp_id"
+            app:title="@string/wechatwork_corp_id"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="wechatwork_secret"
+            app:title="@string/wechatwork_secret"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="wechatwork_agent_id"
+            app:title="@string/wechatwork_agent_id"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+</PreferenceScreen>
