@@ -49,7 +49,7 @@
 * Google Pixel 2 (Stock Android 11)
 * ...
 
-（理论上没有被厂商魔改过的 Android 关闭后台限制后均可正常使用
+> 理论上没有被厂商魔改过的 Android 关闭后台限制后均可正常使用
 
 ## 计划
 
